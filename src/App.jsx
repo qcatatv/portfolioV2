@@ -19,10 +19,10 @@ function App() {
     <div className='flex flex-col w-full p-6 items-center gap-8 mt-20'>
       <h1 className='text-center w-4/12'> I’m a Creative Director and UI/UX Designer from Bucharest, Romania, with expertise in web development, print media, and mobile app design. I turn complex problems into simple, elegant, and intuitive solutions, ensuring websites and mobile apps are both functional and visually captivating. I've had the privilege of working with renowned brands, delivering products that are memorable, user-friendly, and creatively aligned with their identity.</h1>
       <div className=' flex items-center gap-80'>
-        <a className='text-white bg-blue-700 hover:bg-blue-800 transition ease-in-out duration-300 p-2 rounded-xl cursor-pointer'>Download My CV</a>
+        <a href="./assets/CV/CV.pdf" target='_blank' download="" className='text-white bg-blue-700 hover:bg-blue-800 transition ease-in-out duration-300 p-2 rounded-xl cursor-pointer'>Download My CV</a>
         <div className='flex justify-end text-3xl gap-8'>
-          <a className='text-white cursor-pointer'><FontAwesomeIcon icon={faLinkedin} /></a>
-          <a className='text-white cursor-pointer'><FontAwesomeIcon icon={faGithub} /></a>
+          <a href='https://www.linkedin.com/in/rosiorucatalin' target='_blank' className='text-white cursor-pointer text-white hover:text-blue-600 transition ease-in-out duration-300'><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a href='https://github.com/qcatatv' target='_blank' className='text-white cursor-pointer text-white hover:text-blue-600 transition ease-in-out duration-300'><FontAwesomeIcon icon={faGithub} /></a>
         </div>
       </div>
     </div>
