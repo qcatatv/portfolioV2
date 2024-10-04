@@ -3,13 +3,13 @@ import Restaurant from '../assets/restaurantwebsite.jpg'
 
 function Cards() {
   return (
-    <div className='grid grid-cols-2 gap-10'>
+    <div className='flex flex-row gap-10'>
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img className="rounded-t-lg" src={Sneaker} alt="" />
             </a>
             <div className="p-5">
-                <a href="#">
+                <a href="https://sneaker-store-delta.vercel.app/" target='_blank'>
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sneaker Store</h5>
                 </a>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Step into summer with iconic sneakers and unbeatable comfort. Get up to 30% off on top brands—built with HTML, CSS, JavaScript, React.js, Photoshop.</p>
@@ -26,7 +26,7 @@ function Cards() {
                 <img className="rounded-t-lg" src={Restaurant} alt="" />
             </a>
             <div className="p-5">
-                <a href="#">
+                <a href="https://restaurant-site-chi-smoky.vercel.app/" target='_blank'>
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Restaurant</h5>
                 </a>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Enjoy the tastiest dishes from around the world—burgers, pizza, fries, and more—all prepared fresh with love. Built with HTML, CSS, JavaScript, React.js.</p>
