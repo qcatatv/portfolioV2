@@ -3,7 +3,7 @@ import Restaurant from '../assets/restaurantwebsite.jpg'
 
 function Cards() {
   return (
-    <div className='flex flex-row gap-10'>
+    <div className='flex flex-col xl:flex-row gap-10'>
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img className="rounded-t-lg" src={Sneaker} alt="" />
