@@ -7,8 +7,17 @@ export default {
   ],
   theme: {
     extend: {
-      
     },
+    colors: {
+      'white': '#ffffff',
+      'navyellow': '#F4C95D',
+      'btnyellow': '#0174BE',
+      'darkbtn': '#854D27',
+      'tahiti': '#3ab7bf',
+      'silver': '#ecebff',
+      'bubble-gum': '#ff77e9',
+      'bermuda': '#78dcca',
+    }
   },
   plugins: [
     require('flowbite/plugin')
